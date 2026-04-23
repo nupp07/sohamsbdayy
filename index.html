@@ -2,7 +2,7 @@ index
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 <title>For You 💗</title>
 
@@ -12,31 +12,53 @@ index
   body {
   margin: 0;
   background: linear-gradient(to bottom, #1a1a1a, #000);
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-    font-family: 'Playfair Display', serif;
-}
+  height: 100vh;
+    font-family: 'Playfair Display', seri
 
-/* Envelope */
+/* Bigger responsive envelope */
+
 .envelope {
+
   position: relative;
-  width: 90vw;
 
-  max-width: 500px;
+  width: 95vw;
 
-  height: 320px;
-  background: #fdf6ec;
+  max-width: 520px;
+
+  height: 340px;
+
+  border-radius: 12px;
+
   cursor: pointer;
-  border-radius: 10px;
+  background: #ffd6e0; /* pastel pink */
+  <div class="seal">❤</div>
+
+}
+  .seal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #b3003b;
+  color: white;
+  font-size: 18px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
 }
 
 .flap {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: #e8c9a3;
+  background: #ffb6c1;
   clip-path: polygon(0 0, 50% 50%, 100% 0);
   transition: 0.6s;
 }
@@ -53,6 +75,7 @@ index
   top: 5%;
   left: 5%;
   padding: 20px;
+  line-height: 1.8;
   padding-right: 140px; /* space for polaroid */
   box-sizing: border-box;
   overflow-y: auto;
@@ -154,15 +177,14 @@ Nupoor.
       since 24th March,2026  — and still going ❤️
     </p>
 
-<button onclick="click :p()" style="margin-top:10px; padding:6px 12px; border:none; border-radius:8px; cursor:pointer;">
-  open something else…
-</button>
+<button onclick="showSecret()">click:p</button>
 
-<p id="secret" style="display:none; margin-top:10px; font-style: italic;">
-  also… i don’t say this enough, but i really really love you ❤️
+<p id="secret" style="display:none; margin-top:10px;">
+  also, happy one month to us😛
 </p>
 
-  </div>
+<p id="secret" style="display:none; margin-top:10px; font-style: italic;">
+ im cooler than u
 </div>
 
 <script>
