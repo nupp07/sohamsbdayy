@@ -115,7 +115,7 @@ p {
 
     <!-- Polaroid Photo -->
     <div class="polaroid">
-      <img src="PASTE-YOUR-RAW-GITHUB-LINK-HERE">
+      <https://raw.githubusercontent.com/nupp07/sohamsbdayy/main/A0286389-D2DC-4121-B58B-6D6E3EB0B138.jpeg>
     </div>
 
     <h1>Happy Birthday ❤️</h1>
